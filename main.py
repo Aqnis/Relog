@@ -9,7 +9,7 @@ import win32api
 import psutil
 import os
 
-# ctypes.windll.kernel32.SetConsoleTitleA(b"ExcaliburCraft [auto relog]         by @sensationnels_dev")
+ctypes.windll.kernel32.SetConsoleTitleA(b"ExRelog                                      by tg/vk - @sensationnels_dev")
 print("Created by @sensationnels_dev")
 nick = input("Ваш ник на сервере (Соблюдайте регистр букв): ")
 time.sleep(1)
